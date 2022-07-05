@@ -4,9 +4,9 @@ import app from "./app.js";
 import mongoose from "mongoose";
 
 const PORT = process.env.PORT || 3018;
-const DB_URL = process.env.DB_URL + process.env.DB_NAME;
+// const DB_URL = process.env.DB_URL + process.env.DB_NAME;
 
-const DB_URI = `mongodb+srv://call2mechanic:NDhnSlJHK6dDlKaA@cluster0.depssen.mongodb.net/mechanic?retryWrites=true&w=majority`;
+const DB_URI = `mongodb+srv://mechanic:3nP3ttdiVM9lBruM@cluster0.h9ylr.mongodb.net/mechanic?retryWrites=true&w=majority`;
 mongoose
   .connect(DB_URI)
   .then(() => {
